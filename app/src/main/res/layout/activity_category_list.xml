@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F7FA">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#009688"
+        app:title="GariKini"
+        app:titleTextColor="@android:color/white"
+        xmlns:app="http://schemas.android.com/apk/res-auto"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Pick a Category"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#212121"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingHorizontal="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnAllAds"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="All Ads"
+                android:backgroundTint="@android:color/white"
+                android:textColor="#212121"
+                android:layout_marginBottom="4dp"/>
+
+            <Button
+                android:id="@+id/btnTopUrgent"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Top Urgent"
+                android:backgroundTint="@android:color/white"
+                android:textColor="#212121"
+                android:layout_marginBottom="4dp"/>
+
+            <Button
+                android:id="@+id/btnLightVehicles"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Light Vehicles"
+                android:backgroundTint="@android:color/white"
+                android:textColor="#212121"
+                android:layout_marginBottom="4dp"/>
+
+            <Button
+                android:id="@+id/btnHeavyVehicles"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Heavy Vehicles"
+                android:backgroundTint="@android:color/white"
+                android:textColor="#212121"
+                android:layout_marginBottom="4dp"/>
+
+            <Button
+                android:id="@+id/btnMotorbike"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Motorbike"
+                android:backgroundTint="@android:color/white"
+                android:textColor="#212121"
+                android:layout_marginBottom="4dp"/>
+
+            <Button
+                android:id="@+id/btnBicycle"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Bicycle"
+                android:backgroundTint="@android:color/white"
+                android:textColor="#212121"
+                android:layout_marginBottom="4dp"/>
+
+            <Button
+                android:id="@+id/btnHelicopter"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Helicopter"
+                android:backgroundTint="@android:color/white"
+                android:textColor="#212121"
+                android:layout_marginBottom="4dp"/>
+
+            <!-- Fixed: Unique ID for Paddle Rickshaw -->
+            <Button
+                android:id="@+id/btnPaddleRickshaw"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Paddle rickshaw"
+                android:backgroundTint="@android:color/white"
+                android:textColor="#212121"
+                android:layout_marginBottom="4dp"/>
+
+            <Button
+                android:id="@+id/btnPaddleVan"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Paddle Van"
+                android:backgroundTint="@android:color/white"
+                android:textColor="#212121"
+                android:layout_marginBottom="4dp"/>
+
+            <Button
+                android:id="@+id/btnThreeWheeler"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Three Wheeler"
+                android:backgroundTint="@android:color/white"
+                android:textColor="#212121"
+                android:layout_marginBottom="4dp"/>
+
+            <Button
+                android:id="@+id/btnAutoCng"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Auto CNG"
+                android:backgroundTint="@android:color/white"
+                android:textColor="#212121"
+                android:layout_marginBottom="4dp"/>
+
+            <Button
+                android:id="@+id/btnAutoService"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Auto Service Center"
+                android:backgroundTint="@android:color/white"
+                android:textColor="#212121"
+                android:layout_marginBottom="4dp"/>
+
+            <Button
+                android:id="@+id/btnAutoSpare"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Auto Spare Shop and Parts"
+                android:backgroundTint="@android:color/white"
+                android:textColor="#212121"
+                android:layout_marginBottom="4dp"/>
+
+            <Button
+                android:id="@+id/btnGarage"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Garage"
+                android:backgroundTint="@android:color/white"
+                android:textColor="#212121"
+                android:layout_marginBottom="4dp"/>
+
+            <Button
+                android:id="@+id/btnParking"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Parking"
+                android:backgroundTint="@android:color/white"
+                android:textColor="#212121"
+                android:layout_marginBottom="4dp"/>
+
+            <Button
+                android:id="@+id/btnRentalVehicle"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Rental Vehicle"
+                android:backgroundTint="@android:color/white"
+                android:textColor="#212121"
+                android:layout_marginBottom="16dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

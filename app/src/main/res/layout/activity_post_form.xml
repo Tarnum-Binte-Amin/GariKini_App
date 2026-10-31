@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7FA"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Toolbar with dynamic category title -->
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/formToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#009688"
+            app:title="GariKini"
+            app:titleTextColor="@android:color/white"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Create Post"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#212121"/>
+
+        <!-- Image Upload Placeholder Box -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="0dp"
+            app:cardBackgroundColor="#E0E0E0">
+
+            <ImageView
+                android:id="@+id/imgPreviewPlaceholder"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@android:drawable/ic_menu_gallery"
+                app:tint="#9E9E9E" />
+        </androidx.cardview.widget.CardView>
+
+        <!-- Select Images Button -->
+        <Button
+            android:id="@+id/btnSelectImages"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="0dp"
+            android:backgroundTint="@android:color/white"
+            android:text="SELECT IMAGES"
+            android:textColor="#03A9F4"
+            android:textStyle="bold" />
+
+        <!-- Title Input -->
+        <EditText
+            android:id="@+id/etTitle"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="12dp"
+            android:background="@android:color/white"
+            android:hint="Title (e.g. Toyota Corolla)"
+            android:paddingHorizontal="12dp" />
+
+        <!-- Description Input -->
+        <EditText
+            android:id="@+id/etDescription"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="12dp"
+            android:background="@android:color/white"
+            android:gravity="top"
+            android:hint="Description / Condition Details"
+            android:padding="12dp" />
+
+        <!-- Price Input -->
+        <EditText
+            android:id="@+id/etPrice"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="12dp"
+            android:background="@android:color/white"
+            android:hint="Price (BDT)"
+            android:inputType="numberDecimal"
+            android:paddingHorizontal="12dp" />
+
+        <!-- Phone Number Input -->
+        <EditText
+            android:id="@+id/etPhone"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="12dp"
+            android:background="@android:color/white"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            android:paddingHorizontal="12dp"/>
+        <!-- Terms and Conditions Checkbox -->
+        <CheckBox
+            android:id="@+id/cbTerms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="Read our Terms &amp; Conditions, Privacy Policy, and Return Policy."
+            android:textSize="12sp" />
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/btnSubmitPost"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:backgroundTint="#009688"
+            android:text="SUBMIT POST"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>

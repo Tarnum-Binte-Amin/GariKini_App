@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#009688"
+        app:title="GariKini"
+        app:titleTextColor="@android:color/white"
+        xmlns:app="http://schemas.android.com/apk/res-auto"/>
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/locationToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@android:color/white"
+        app:title="Select Location"
+        app:titleTextColor="@android:color/black"
+        xmlns:app="http://schemas.android.com/apk/res-auto" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Where are you selling this item?"
+        android:textColor="#757575"
+        android:textSize="14sp"
+        android:layout_marginBottom="16dp" />
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/map"/>
+
+    <!-- District Spinner linked to arrays.xml -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginBottom="12dp"
+        android:background="#E0E0E0"
+        android:orientation="vertical"
+        android:paddingHorizontal="12dp"
+        android:paddingVertical="6dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select District"
+            android:textColor="#03A9F4"
+            android:textSize="11sp" />
+
+        <Spinner
+            android:id="@+id/spinnerDistrict"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/district_array" />
+    </LinearLayout>
+
+    <!-- Upazila Spinner -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginBottom="32dp"
+        android:background="#E0E0E0"
+        android:orientation="vertical"
+        android:paddingHorizontal="12dp"
+        android:paddingVertical="6dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Upazila"
+            android:textColor="#03A9F4"
+            android:textSize="11sp" />
+
+        <Spinner
+            android:id="@+id/spinnerUpazila"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnLocationNext"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="#03A9F4"
+        android:text="Next"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+</LinearLayout>

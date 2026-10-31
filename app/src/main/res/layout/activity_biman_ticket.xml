@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="0dp"
+    android:background="#F5F7FA">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/bimanToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#009688"
+        app:title="GariKini"
+        app:titleTextColor="@android:color/white"
+        xmlns:app="http://schemas.android.com/apk/res-auto"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Biman E-Ticket"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:paddingHorizontal="12dp"/>
+
+    <!-- Added ID: etFrom -->
+    <EditText
+        android:id="@+id/etFrom"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="30dp"
+        android:hint="From (Departure City)"
+        android:textColor="#212121"
+        android:background="@android:color/white"
+        android:paddingHorizontal="12dp"/>
+
+    <!-- Added ID: etTo -->
+    <EditText
+        android:id="@+id/etTo"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:hint="To (Arrival City)"
+        android:textColor="#212121"
+        android:background="@android:color/white"
+        android:paddingHorizontal="12dp"/>
+
+    <!-- Added ID: etDepartureDate -->
+    <EditText
+        android:id="@+id/etDepartureDate"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:hint="Departure Date"
+        android:textColor="#212121"
+        android:background="@android:color/white"
+        android:paddingHorizontal="12dp"
+        android:inputType="date"/>
+
+    <!-- Added ID: etReturnDate -->
+    <EditText
+        android:id="@+id/etReturnDate"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:hint="Return Date"
+        android:textColor="#212121"
+        android:background="@android:color/white"
+        android:paddingHorizontal="12dp"
+        android:inputType="date"/>
+
+    <!-- Added ID: btnSearchFlights -->
+    <Button
+        android:id="@+id/btnSearchFlights"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#009688"
+        android:text="SEARCH FLIGHTS"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>

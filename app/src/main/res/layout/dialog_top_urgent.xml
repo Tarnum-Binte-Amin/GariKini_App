@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="টপ আর্জেন্ট পোস্ট"
+        android:textColor="#009688"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:maxHeight="300dp"
+        android:layout_marginBottom="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="টপ আর্জেন্ট পোস্ট এড: দ্রুত বিক্রির সহজ সমাধান!\n\nআপনার গাড়ি, বাইক বা অন্যান্য পণ্য দ্রুত বিক্রি করতে চান? সঠিক ক্রেতার কাছে পৌঁছাতে চান সহজেই? তাহলে টop আর্জেন্ট পোস্ট এড আপনার জন্যই!\n\nটপ আর্জেন্ট পোস্ট এড কী?\nটপ আর্জেন্ট পোস্ট এড হলো এমন একটি সুবিধা, যার মাধ্যমে আপনার বিজ্ঞাপনটি ওয়েবসাইট বা প্ল্যাটফর্মের প্রথম স্ক্রিনে দেখা যাবে। এতে আপনার বিজ্ঞাপন অধিক সংখ্যক ক্রেতার সামনে উঠে আসবে, ফলে দ্রুত বিক্রির সম্ভাবনা অনেক বেড়ে যাবে।\n\nকেন টপ আর্জেন্ট এড করবেন?\n✅ বহুগুণ বেশি ভিউ – সাধারণ বিজ্ঞাপনের তুলনায় এটি আরও বেশি ক্রেতার দৃষ্টি আকর্ষণ করে।\n✅ দ্রুত বিক্রি – আপনার গাড়ি, বাইক বা পণ্য খুব স্বল্প সময়ের মধ্যেই বিক্রির সুযোগ পাবেন।\n✅ আশানুরূপ মূল্য পাওয়া সহজ – অধিক ক্রেতার কাছে বিজ্ঞাপন পৌঁছালে আপনি আপনার পণ্যের সঠিক মূল্য পেতে পারেন।\n\nকিভাবে টপ আর্জেন্ট এড করবেন?\n1. আপনার প্রোফাইলে যান এবং Boost My Items অপশনে ক্লিক করুন।\n2. নির্দিষ্ট ফি পরিশোধ করুন।\n3. বিজ্ঞাপনটি ৩ দিন বা ১০ দিনের জন্য টপ আর্জেন্ট ক্যাটাগরিতে থাকবে।\n\nএটি একটি পেইড সার্ভিস, যা আপনার বিজ্ঞাপনকে সবার আগে পৌঁছে দিয়ে দ্রুত বিক্রির সুযোগ তৈরি করে।"
+                android:textColor="#333333"
+                android:textSize="14sp"
+                android:lineSpacingExtra="4dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnDialogOk"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:backgroundTint="#009688"
+        android:text="OK"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+</LinearLayout>

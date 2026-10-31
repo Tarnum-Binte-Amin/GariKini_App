@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7FA">
+
+    <!-- Top Action Bar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/profileToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#009688"
+        app:title="Profile"
+        app:titleTextColor="@android:color/white"
+        xmlns:app="http://schemas.android.com/apk/res-auto" />
+
+    <!-- Scrollable Content Section -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/profileToolbar"
+        android:layout_above="@id/bottomNav"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="16dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="24dp">
+
+            <!-- Profile Header: Avatar, Name, Phone -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginBottom="16dp">
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:background="@drawable/profile"
+                    android:tint="#212121" />
+
+                <!-- Added ID: tvProfileName -->
+                <TextView
+                    android:id="@+id/tvProfileName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Tarnum Binte Amin"
+                    android:textColor="#212121"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <!-- Added ID: tvProfilePhone -->
+                <TextView
+                    android:id="@+id/tvProfilePhone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="+8801970272073"
+                    android:textColor="#757575"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <!-- Menu Item 1: Boost My Item (Teal Highlight) -->
+            <Button
+                android:id="@+id/btnBoostItem"
+                style="?attr/materialButtonOutlinedStyle"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="#B2DFDB"
+                android:drawableStart="@android:drawable/ic_menu_upload"
+                android:gravity="start|center_vertical"
+                android:paddingStart="16dp"
+                android:text="       Boost My Item"
+                android:textColor="#00695C"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <!-- Menu Item 2: Edit Profile -->
+            <Button
+                android:id="@+id/btnEditProfile"
+                style="?attr/materialButtonOutlinedStyle"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="0dp"
+                android:backgroundTint="#EFEFEF"
+                android:drawableStart="@android:drawable/ic_menu_manage"
+                android:gravity="start|center_vertical"
+                android:paddingStart="16dp"
+                android:text="       Edit Profile"
+                android:textColor="#212121"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <!-- Menu Item 3: My Package and Transactions -->
+            <Button
+                android:id="@+id/btnTransactions"
+                style="?attr/materialButtonOutlinedStyle"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="0dp"
+                android:backgroundTint="#EFEFEF"
+                android:drawableStart="@android:drawable/ic_menu_agenda"
+                android:gravity="start|center_vertical"
+                android:paddingStart="16dp"
+                android:text="       My Package and Transactions"
+                android:textColor="#212121"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <!-- Menu Item 4: Stay Safe -->
+            <Button
+                android:id="@+id/btnStaySafe"
+                style="?attr/materialButtonOutlinedStyle"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="0dp"
+                android:backgroundTint="#EFEFEF"
+                android:drawableStart="@android:drawable/ic_menu_info_details"
+                android:gravity="start|center_vertical"
+                android:paddingStart="16dp"
+                android:text="       Stay Safe"
+                android:textColor="#212121"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <!-- Menu Item 5: FAQ -->
+            <Button
+                android:id="@+id/btnFaq"
+                style="?attr/materialButtonOutlinedStyle"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="0dp"
+                android:backgroundTint="#EFEFEF"
+                android:drawableStart="@android:drawable/ic_menu_help"
+                android:gravity="start|center_vertical"
+                android:paddingStart="16dp"
+                android:text="       FAQ"
+                android:textColor="#212121"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <!-- Menu Item 6: Share -->
+            <Button
+                android:id="@+id/btnShare"
+                style="?attr/materialButtonOutlinedStyle"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="0dp"
+                android:backgroundTint="#EFEFEF"
+                android:drawableStart="@android:drawable/ic_menu_share"
+                android:gravity="start|center_vertical"
+                android:paddingStart="16dp"
+                android:text="       Share"
+                android:textColor="#212121"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <!-- Menu Item 7: Contact Us -->
+            <Button
+                android:id="@+id/btnContactUs"
+                style="?attr/materialButtonOutlinedStyle"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="0dp"
+                android:backgroundTint="#EFEFEF"
+                android:drawableStart="@android:drawable/ic_menu_call"
+                android:gravity="start|center_vertical"
+                android:paddingStart="16dp"
+                android:text="       Contact Us"
+                android:textColor="#212121"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <!-- Menu Item 8: About Us -->
+            <Button
+                android:id="@+id/btnAboutUs"
+                style="?attr/materialButtonOutlinedStyle"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="0dp"
+                android:backgroundTint="#EFEFEF"
+                android:drawableStart="@android:drawable/ic_menu_view"
+                android:gravity="start|center_vertical"
+                android:paddingStart="16dp"
+                android:text="       About Us"
+                android:textColor="#212121"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <!-- Menu Item 9: Privacy Policy -->
+            <Button
+                android:id="@+id/btnPrivacy"
+                style="?attr/materialButtonOutlinedStyle"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="0dp"
+                android:backgroundTint="#EFEFEF"
+                android:drawableStart="@android:drawable/ic_menu_view"
+                android:gravity="start|center_vertical"
+                android:paddingStart="16dp"
+                android:text="       Privacy Policy"
+                android:textColor="#212121"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <!-- Menu Item 10: Logout (Red Accent Highlight) -->
+            <Button
+                android:id="@+id/btnLogout"
+                style="?attr/materialButtonOutlinedStyle"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:backgroundTint="#FFCDD2"
+                android:drawableStart="@android:drawable/ic_input_delete"
+                android:gravity="start|center_vertical"
+                android:paddingStart="16dp"
+                android:text="       Logout"
+                android:textColor="#C62828"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Bottom Navigation Bar Matching the Screenshot Footer -->
+    <LinearLayout
+        android:id="@+id/bottomNav"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/navHome"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/transparent"
+            android:text="🏠 Home"
+            android:textColor="#757575"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/navSearch"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/transparent"
+            android:text="🔍 Search"
+            android:textColor="#757575"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/navAddPost"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:backgroundTint="#03A9F4"
+            android:text="+"
+            android:textColor="@android:color/white"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/navChats"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/transparent"
+            android:text="💬 Chats"
+            android:textColor="#757575"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/navProfile"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/transparent"
+            android:text="👤 Profile"
+            android:textColor="#009688"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

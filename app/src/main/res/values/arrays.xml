@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Main District List -->
+    <string-array name="district_array">
+        <item>Select District</item>
+        <item>Dhaka</item>
+        <item>Chattogram</item>
+        <item>Comilla</item>
+        <item>Feni</item>
+        <item>Brahmanbaria</item>
+        <item>Rajshahi</item>
+        <item>Barisal</item>
+        <item>Sylhet</item>
+        <item>Khulna</item>
+        <item>Rangpur</item>
+        <item>Mymensingh</item>
+    </string-array>
+
+    <!-- Default Placeholder -->
+    <string-array name="default_upazilas">
+        <item>Select Upazila</item>
+    </string-array>
+
+    <!-- Dhaka Upazilas -->
+    <string-array name="dhaka_upazilas">
+        <item>Select Upazila</item>
+        <item>Dhanmondi</item>
+        <item>Gulshan</item>
+        <item>Mirpur</item>
+        <item>Uttara</item>
+        <item>Tejgaon</item>
+        <item>Ramna</item>
+        <item>Motijheel</item>
+    </string-array>
+
+    <!-- Chattogram Upazilas -->
+    <string-array name="chattogram_upazilas">
+        <item>Select Upazila</item>
+        <item>Double Mooring</item>
+        <item>Pahartali</item>
+        <item>Kotwali</item>
+        <item>Hathazari</item>
+        <item>Patiya</item>
+        <item>Sitakunda</item>
+        <item>Bayazid</item>
+    </string-array>
+
+    <!-- Comilla Upazilas[cite: 5] -->
+    <string-array name="comilla_upazilas">
+        <item>Select Upazila</item>
+        <item>Debidwar</item>
+        <item>Barura</item>
+        <item>Brahmanpara</item>
+        <item>Chandina</item>
+        <item>Chauddagram</item>
+        <item>Daudkandi</item>
+        <item>Homna</item>
+        <item>Laksam</item>
+        <item>Muradnagar</item>
+    </string-array>
+
+    <!-- Feni Upazilas -->
+    <string-array name="feni_upazilas">
+        <item>Select Upazila</item>
+        <item>Feni Sadar</item>
+        <item>Daganbhuiyan</item>
+        <item>Chhagalnaiya</item>
+        <item>Sonagazi</item>
+        <item>Parshuram</item>
+        <item>Fulgazi</item>
+    </string-array>
+
+    <!-- Brahmanbaria Upazilas -->
+    <string-array name="brahmanbaria_upazilas">
+        <item>Select Upazila</item>
+        <item>Brahmanbaria Sadar</item>
+        <item>Ashuganj</item>
+        <item>Nasirnagar</item>
+        <item>Nabinagar</item>
+        <item>Kasba</item>
+        <item>Akhaura</item>
+    </string-array>
+
+    <!-- Rajshahi Upazilas -->
+    <string-array name="rajshahi_upazilas">
+        <item>Select Upazila</item>
+        <item>Boalia</item>
+        <item>Motihar</item>
+        <item>Rajpara</item>
+        <item>Shah Makhdum</item>
+        <item>Paba</item>
+        <item>Tanore</item>
+    </string-array>
+
+    <!-- Barisal Upazilas -->
+    <string-array name="barisal_upazilas">
+        <item>Select Upazila</item>
+        <item>Barisal Sadar</item>
+        <item>Bakerganj</item>
+        <item>Babuganj</item>
+        <item>Wazirpur</item>
+        <item>Banaripara</item>
+    </string-array>
+
+    <!-- Sylhet Upazilas -->
+    <string-array name="sylhet_upazilas">
+        <item>Select Upazila</item>
+        <item>Sylhet Sadar</item>
+        <item>Beanibazar</item>
+        <item>Bishwanath</item>
+        <item>Companiganj</item>
+        <item>Fenchuganj</item>
+    </string-array>
+
+    <!-- Khulna Upazilas -->
+    <string-array name="khulna_upazilas">
+        <item>Select Upazila</item>
+        <item>Khulna Sadar</item>
+        <item>Sonadanga</item>
+        <item>Khalishpur</item>
+        <item>Daulatpur</item>
+        <item>Batiaghata</item>
+    </string-array>
+
+    <!-- Rangpur Upazilas -->
+    <string-array name="rangpur_upazilas">
+        <item>Select Upazila</item>
+        <item>Rangpur Sadar</item>
+        <item>Gangachara</item>
+        <item>Taraganj</item>
+        <item>Badargonj</item>
+    </string-array>
+
+    <!-- Mymensingh Upazilas -->
+    <string-array name="mymensingh_upazilas">
+        <item>Select Upazila</item>
+        <item>Mymensingh Sadar</item>
+        <item>Trishal</item>
+        <item>Muktagacha</item>
+        <item>Bhaluka</item>
+        <item>Gauripur</item>
+    </string-array>
+</resources>
