@@ -19,4 +19,3 @@ GariKini is a feature-rich, native Android marketplace application designed for 
 3. Explore Marketplace: Upon logging in, users land on the dynamic grid-based home feed displaying pre-loaded and user-generated vehicle listings.   
 4. Filter & Inspect: Users can apply real-time location filters to narrow down choices and tap on any listing to view comprehensive details, specs, and seller contact options.   
 5. Post Listings: Users can utilize the interactive add-post feature to input details and create new marketplace entries instantly.
-6. 
